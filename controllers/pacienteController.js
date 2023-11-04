@@ -1,4 +1,4 @@
-import Paciente from "../models/Paciente.js";
+import Paciente from "../models/paciente.js";
 
 const agregarPaciente = async (req, res) => {
   const paciente = new Paciente(req.body);
