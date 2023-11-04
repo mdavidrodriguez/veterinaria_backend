@@ -5,8 +5,8 @@ const emailOlvidePassword = async (datos) => {
     host: "sandbox.smtp.mailtrap.io",
     port: 2525,
     auth: {
-      user: "fa173ab96bd103",
-      pass: "0bf01eeda5184b"
+      user: "bf0218aab9d371",
+      pass: "290e44fcb36da6"
     }
   });
   const { email, nombre, token } = datos;
